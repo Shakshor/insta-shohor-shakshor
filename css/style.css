@@ -244,6 +244,11 @@ img {
 #reported{
   display: none;
 }
+/* ---- Questions Area --------- */
+#question-area{
+  height: 50vh;
+}
+
 
 @media only screen and (max-width: 992px) {
   #posts {
