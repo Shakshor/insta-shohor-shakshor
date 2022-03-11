@@ -40,6 +40,8 @@ const switchTab = (id) => {
     document.getElementById("posts").style.display = "none";
     document.getElementById("reported").style.display = "none";
 
+    document.getElementById("liked").innerHTML = '';
+
     displayLikedPosts();
   } else {
     document.getElementById("reported").style.display = "block";
